@@ -1,4 +1,12 @@
-#sidebar {
-    width: 200px;
-    display: none;
+.sidebar {
+  width: 200px;
+  display: none;
+}
+
+#hamburgerButton {
+  display: block;
+}
+
+#barButton {
+  display: none;
 }
