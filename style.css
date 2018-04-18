@@ -17,15 +17,6 @@
   display: none;
 }
 
-.sidebar {
-  float: left;
-  width: 180px;
-  margin: 0 10px 0 0;
-  padding: 10px;
-  border-right: 1px solid #eee;
-  color: #670;
-}
-
 .sidebar a {
   color: #333;
   background: inherit;
