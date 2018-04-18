@@ -1,3 +1,8 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .collapsableSidebar {
   width: 200px;
   display: none;
@@ -18,10 +23,11 @@
   float: left;
   position: relative;
   border: none;
-  background-color: skyblue;
+  background-color: lightseagreen;
   width: 2em;
   height: 2em;
-  font-size: 2em;
+  font-size: 1em;
+  color: white;
 }
 
 #hamburgerButton:hover {
