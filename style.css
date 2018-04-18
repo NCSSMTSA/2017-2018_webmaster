@@ -4,13 +4,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <style rel="stylesheet" type="text/css">
 
+.sidebar {
+  width: 200px;
+  display: none;
+}
+
+#hamburgerButton {
+  display: block;
+}
+
+#barButton {
+  display: none;
+}
+
 #sidebar {
   float: left;
   width: 180px;
   margin: 0 10px 0 0;
   padding: 10px;
   border-right: 1px solid #eee;
-  color: #666;
+  color: #670;
 }
 
 #sidebar a {
