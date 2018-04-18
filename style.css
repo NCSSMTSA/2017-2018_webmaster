@@ -7,7 +7,7 @@
   display: block;
 }
 
-.sidebarContents a button {
+.sidebarContents a, button {
   display: block;
 }
 
