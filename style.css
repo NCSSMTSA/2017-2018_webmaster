@@ -1,6 +1,10 @@
 .collapsableSidebar {
   width: 200px;
   display: none;
+  float:left;
+}
+.sidebarContents {
+  display:list-item;
 }
 
 #hamburgerButton {
