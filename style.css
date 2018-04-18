@@ -17,7 +17,7 @@
   display: none;
 }
 
-#sidebar {
+.sidebar {
   float: left;
   width: 180px;
   margin: 0 10px 0 0;
@@ -26,17 +26,17 @@
   color: #670;
 }
 
-#sidebar a {
+.sidebar a {
   color: #333;
   background: inherit;
 }
 
-#sidebar a:hover {
+.sidebar a:hover {
   color: #B29B35;
   background: inherit;
 }
 
-#sidebar {
+.sidebar {
   float: left;
   width: 180px;
   margin: 0 10px 0 0;
@@ -45,12 +45,12 @@
   color: #666;
 }
 
-#sidebar a {
+.sidebar a {
   color: #333;
   background: inherit;
 }
 
-#sidebar a:hover {
+.sidebar a:hover {
   color: #B29B35;
   background: inherit;
 }
