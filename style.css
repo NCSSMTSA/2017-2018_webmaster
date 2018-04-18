@@ -17,6 +17,14 @@
   display: block;
   float: left;
   position: relative;
+  border: none;
+  background-color: teal;
+  width: 2em;
+  height: 2em;
+}
+
+#hamburgerButton:hover {
+  background-color: lightgray;
 }
 
 #barButton {
