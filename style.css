@@ -2,6 +2,8 @@
   width: 200px;
   display: none;
   float:left;
+  position: absolute;
+  z-index: 10;
 }
 .sidebarContents {
   display: block;
@@ -13,7 +15,8 @@
 
 #hamburgerButton {
   display: block;
-  float:left;
+  float: left;
+  position: relative;
 }
 
 #barButton {
