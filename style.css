@@ -18,9 +18,10 @@
   float: left;
   position: relative;
   border: none;
-  background-color: teal;
+  background-color: skyblue;
   width: 2em;
   height: 2em;
+  font-size: 2em;
 }
 
 #hamburgerButton:hover {
