@@ -4,11 +4,12 @@
   float:left;
 }
 .sidebarContents {
-  display:list-item;
+  display: block;
 }
 
 #hamburgerButton {
   display: block;
+  float:left;
 }
 
 #barButton {
