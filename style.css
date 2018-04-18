@@ -1,34 +1,87 @@
-<!DOCTYPE html>
-<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>*KHAKI*</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style rel="stylesheet" type="text/css">
+
+#sidebar {
+  float: left;
+  width: 180px;
+  margin: 0 10px 0 0;
+  padding: 10px;
+  border-right: 1px solid #eee;
+  color: #666;
+}
+
+#sidebar a {
+  color: #333;
+  background: inherit;
+}
+
+#sidebar a:hover {
+  color: #B29B35;
+  background: inherit;
+}
+
+#sidebar {
+  float: left;
+  width: 180px;
+  margin: 0 10px 0 0;
+  padding: 10px;
+  border-right: 1px solid #eee;
+  color: #666;
+}
+
+#sidebar a {
+  color: #333;
+  background: inherit;
+}
+
+#sidebar a:hover {
+  color: #B29B35;
+  background: inherit;
+}
+
+
+</style>
+
+</head>
 <body>
 
-<!-- Sidebar -->
-<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
-  <h3 class="w3-bar-item">Menu</h3>
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-</div>
+  <div id="sidebar">
+    <h2>Resources</h2>
+    <div class="navlist">
+      <ul>
+        <li><a href="">A</a></li>
+        <li><a href="">TODC</a></li>
+        <li><a href="">OWD</a></li>
+        <li><a href="">E</a></li>
+        <li><a href="">F</a></li>
+        <li><a href="">B</a></li>
+        <li><a href="">C</a></li>
+      </ul>
+    </div>
+    <form action="" method="post">
+      <fieldset>
+      <legend>Search</legend>
+      <div> <span>
+        <label for="txtsearch"> Find: <img src="img/search.gif" alt="search" /></label>
+        </span> <span>
+        <input type="text" value="demo only" name="txtsearch" title="Text input: search" id="txtsearch" size="20" />
+        </span> </div>
+      </fieldset>
+    </form>
+    <h2>Sub Menu</h2>
+    <div class="navlist">
+      <ul>
+        <li><a href="">Link One</a></li>
+        <li><a href="">Link Two</a></li>
+        <li><a href="">Link Three</a></li>
+        <li><a href="">Link Four</a></li>
+      </ul>
+    </div>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  </div>
 
-<!-- Page Content -->
-<div style="margin-left:25%">
-
-<div class="w3-container w3-teal">
-  <h1>My Page</h1>
-</div>
-
-<img src="img_car.jpg" alt="Car" style="width:100%">
-
-<div class="w3-container">
-<h2>Sidebar Navigation Example</h2>
-<p>The sidebar with is set with "style="width:25%".</p>
-<p>The left margin of the page content is set to the same value.</p>
-</div>
-
-</div>
-      
 </body>
 </html>
