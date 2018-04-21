@@ -8,9 +8,6 @@
 }
 
 .sidebarContainer {
-  position: sticky;
-  left: 2em;
-  z-index: 30;
 }
 
 
@@ -22,8 +19,8 @@
   width: 200px;
   display: none;
   float:left;
-  position: absolute;
-  z-index: 10;
+  position: sticky;
+  z-index: 30;
   background-color: rgba(32, 178, 170, 0.6);
 }
 .sidebarContents {
@@ -34,12 +31,8 @@
   display: block;
 }
 
-.sidebarContents a {
-
-}
 
 #hamburgerButton {
-  display: inline-block;
   float: left;
   position: sticky;
   border: none;
@@ -48,6 +41,21 @@
   height: 2em;
   font-size: 1em;
   color: white;
+  z-index: 25;
+}
+
+#barButton {
+  display: block;
+  border: none;
+  background-color: lightseagreen;
+  width: 5em;
+  height: 2em;
+  font-size: 1em;
+  color: white;
+}
+
+#barButton:hover {
+  background-color: lightgray;
 }
 
 #hamburgerButton:hover {
