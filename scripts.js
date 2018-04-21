@@ -1,6 +1,6 @@
 function closeSidebar() {
   document.getElementById("sidebar").style.display = "none";
-  document.getElementById("hamburgerButton").style.display = "block";
+  document.getElementById("hamburgerButton").style.display = "inline-block";
 }
 
 function openSidebar() {
