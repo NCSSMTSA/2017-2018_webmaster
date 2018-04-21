@@ -2,10 +2,17 @@
   display: inline-block;
 }
 
-body {
-  margin: 0 !important;
-  padding: 0 !important;
+.headContainer {
+  position: fixed;
+  left: 2em;
 }
+
+.sidebarContainer {
+  position: sticky;
+  left: 2em;
+  z-index: 30;
+}
+
 
 .top {
   display: inline-block;
@@ -17,7 +24,7 @@ body {
   float:left;
   position: absolute;
   z-index: 10;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(32, 178, 170, 0.6);
 }
 .sidebarContents {
   display: block;
@@ -34,7 +41,7 @@ body {
 #hamburgerButton {
   display: inline-block;
   float: left;
-  position: relative;
+  position: sticky;
   border: none;
   background-color: lightseagreen;
   width: 2em;
@@ -49,38 +56,3 @@ body {
 
 #barButton {
 }
-
-
-
-
-/*
-.sidebar a {
-  color: #333;
-  background: inherit;
-}
-
-.sidebar a:hover {
-  color: #B29B35;
-  background: inherit;
-}
-
-.sidebar {
-  float: left;
-  width: 180px;
-  margin: 0 10px 0 0;
-  padding: 10px;
-  border-right: 1px solid #eee;
-  color: #666;
-}
-
-.sidebar a {
-  color: #333;
-  background: inherit;
-}
-
-.sidebar a:hover {
-  color: #B29B35;
-  background: inherit;
-}
-
-*/
