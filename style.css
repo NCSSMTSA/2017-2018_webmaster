@@ -12,11 +12,14 @@ body {
 }
 
 .slideInP {
-  
+
 }
 
 
-
+#collaborators {
+  position: relative;
+  left: 2em;
+}
 
 
 
