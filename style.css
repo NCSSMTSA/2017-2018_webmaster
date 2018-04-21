@@ -1,7 +1,22 @@
 body {
   height: 100%;
   margin: 0;
+  font-family: "Open Sans";
 }
+
+
+
+.slideInHeader {
+  margin: auto;
+  padding: 1em;
+}
+
+.slideInP {
+  
+}
+
+
+
 
 
 
