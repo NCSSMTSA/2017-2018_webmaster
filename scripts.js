@@ -1,9 +1,7 @@
 function closeSidebar() {
-  document.getElementById("sidebar").style.display = "none";
-  document.getElementById("hamburgerButton").style.visibility = "visible";
+  document.getElementById("sidebar").style.width = "0";
 }
 
 function openSidebar() {
-  document.getElementById("sidebar").style.display = "inline-block";
-  document.getElementById("hamburgerButton").style.visibility = "hidden";
+  document.getElementById("sidebar").style.width = "15em";
 }
