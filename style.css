@@ -3,6 +3,10 @@ body {
   padding: 0 !important;
 }
 
+.top {
+  display: inline-block;
+}
+
 .collapsableSidebar {
   width: 200px;
   display: none;
