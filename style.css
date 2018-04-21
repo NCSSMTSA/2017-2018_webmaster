@@ -1,5 +1,6 @@
 body {
   height: 100%;
+  margin: 0;
 }
 
 
@@ -17,9 +18,9 @@ body {
   padding-top: 3em;
 }
 
-
-.top {
-  display: inline-block;
+#top {
+  background-color: #21b2aa;
+  padding: 0 1em
 }
 
 .sidebarContents {
@@ -33,6 +34,7 @@ body {
 }
 
 .sidebarContents li {
+  margin-bottom: 0.5em;
   padding: 8px 8px 8px 8px;
   text-decoration: none;
   font-size: 1.25em;
@@ -46,15 +48,20 @@ body {
 
 .sidebarContents li:hover {
   background-color: #189B95;
+  cursor: pointer;
+}
+
+#header {
+  display: inline-block;
+  margin: 1em;
 }
 
 #hamburgerButton {
-  float: left;
-  position: sticky;
+  display: inline-block;
   border: none;
   background-color: lightseagreen;
-  width: 2.5em;
-  height: 2.5em;
+  width: 3em;
+  height: 3em;
   font-size: 1em;
   color: white;
   z-index: 25;
@@ -62,8 +69,8 @@ body {
 
 #barButton {
   position: absolute;
-  top: 0;
   right: 0;
+  top: 0;
   border: none;
   background-color: lightseagreen;
   width: 3em;
@@ -74,11 +81,10 @@ body {
 
 #barButton:hover {
   background-color: red;
+  cursor: pointer;
 }
 
 #hamburgerButton:hover {
-  background-color: lightgray;
-}
-
-#barButton {
+  background-color: #088B85;
+  cursor: pointer;
 }
