@@ -9,6 +9,7 @@ body {
   float:left;
   position: absolute;
   z-index: 10;
+  background-color: white;
 }
 .sidebarContents {
   display: block;
@@ -16,6 +17,10 @@ body {
 
 .sidebarContents a, button {
   display: block;
+}
+
+.sidebarContents a {
+  
 }
 
 #hamburgerButton {
