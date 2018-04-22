@@ -4,6 +4,121 @@ body {
   font-family: "Open Sans";
 }
 
+ul, ol{
+      /*margin: 0;padding: 0;*/
+      list-style: none;
+  }
+.coolList li {
+    text-align: left;
+    background: #37BC9B;
+    color: #fff;
+    counter-increment: myCounter;
+    margin: 0 0 30px 0;
+    padding: 13px;
+    position: relative;
+    top: 1em;
+    border-radius:  0em 2px 1em 1em;
+    padding-left: 2em;
+    font-size: 1.2em;
+    font-family: Roboto;
+    font-weight: 300;
+    vertical-align: middle;
+}
+
+.coolList2 .coolList2Items{
+    text-align: left;
+    background: #37BC9B;
+    color: #fff;
+    counter-increment: myCounter;
+    margin: 0 0 30px 0;
+    padding: 13px;
+    position: relative;
+    top: 1em;
+    border-radius:  0em 2px 1em 1em;
+    padding-left: 2em;
+    font-size: 1.2em;
+    font-family: Roboto;
+    font-weight: 300;
+    vertical-align: middle;
+}
+
+.coolList2Inner {
+    text-align: left;
+    background: #434A54;
+    color: #fff;
+    margin: 0 0 30px 0;
+    padding: 13px;
+    position: relative;
+    top: 1em;
+    border-radius:  0em 2px 1em 1em;
+    padding-left: 2em;
+    font-size: 1em;
+    font-family: "Open Sans";
+    font-weight: 300;
+    vertical-align: middle;
+}
+
+.coolList2Inner:before{
+    content: "•";
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1em;
+    background-color:  #48CFAD;
+    padding: 10px 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    border-radius: 50%;
+    font-family: exo;
+}
+
+.coolList li:before{
+    content: counter(myCounter, decimal-leading-zero);
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1em;
+    background-color:  #48CFAD;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    border-radius: 50%;
+    font-family: exo;
+}
+
+.coolList2 .coolList2Items:before{
+    counter-increment: myCounter 0.5;
+    content: counter(myCounter, decimal-leading-zero);
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1em;
+    background-color:  #48CFAD;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    border-radius: 50%;
+    font-family: exo;
+}
+
+
+.coolList li:nth-child(even){
+    background-color: #434A54;
+  }
+
+
+
+
+
+
+
+
 
 
 .slideInHeader {
@@ -17,10 +132,29 @@ body {
   margin: 1em auto;
 }
 
+#chapterBackground {
+  background-image: url(https://i.pinimg.com/originals/e5/f9/f3/e5f9f398bbae7953349a88beb427fa9d.png);
+  background-size: cover;
+  margin: -1.5em 0;
+  padding: 2em 0;
+  color: white;
+}
 
 #collaborators {
   font-size: 5em;
   font-family: Lobster;
+}
+
+.imgContainer {
+  float: left;
+  width: 33.33%;
+}
+.imgContainer img {
+  transition: filter 1s;
+}
+
+.imgContainer img:hover {
+  filter: blur(5px);
 }
 
 .shadow {
