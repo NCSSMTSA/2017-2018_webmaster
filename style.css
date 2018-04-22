@@ -1,14 +1,8 @@
 * {
   overflow-x: hidden;
-}
-
-div {
   box-sizing: border-box;
-  }
-
-html {
-  overflow-x: hidden;
 }
+
 
 body {
   height: 100%;
