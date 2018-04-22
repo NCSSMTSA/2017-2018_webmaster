@@ -91,7 +91,6 @@ ul, ol{
 }
 
 .coolList2 .coolList2Items:before{
-    counter-increment: myCounter 0.5;
     content: counter(myCounter, decimal-leading-zero);
     display: inline-block;
     text-align: center;
