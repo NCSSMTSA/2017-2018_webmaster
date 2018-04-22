@@ -1,5 +1,5 @@
 * {
-  overflow-x: hidden;
+  overflow-x: ;
 }
 
 div {
@@ -20,7 +20,9 @@ ul, ol{
       /*margin: 0;padding: 0;*/
       list-style: none;
   }
+
 .coolList li {
+    float: left;
     text-align: left;
     background: #37BC9B;
     color: #fff;
@@ -38,6 +40,7 @@ ul, ol{
 }
 
 .coolList2 .coolList2Items{
+    float: left;
     text-align: left;
     background: #37BC9B;
     color: #fff;
@@ -55,6 +58,7 @@ ul, ol{
 }
 
 .coolList2Inner {
+    float: left;
     text-align: left;
     background: #434A54;
     color: #fff;
