@@ -9,3 +9,5 @@ function openSidebar() {
 document.addEventListener('DOMContentLoaded', function() {
    AOS.init();
 }, false);
+
+window.addEventListener('load', AOS.refresh);
