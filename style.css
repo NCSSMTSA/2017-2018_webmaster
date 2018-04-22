@@ -2,11 +2,14 @@ div {
   box-sizing: border-box;
   }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   height: 100%;
   margin: 0;
   font-family: "Open Sans";
-  overflow-x: hidden;
 }
 
 ul, ol{
